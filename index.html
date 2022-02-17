@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Yulia Nagubneva ;)</title>
+</head>
+<body>
+    <div id="text_container"></div>
+    <div id="img_container"></div>
+    <div id="like_button_container"></div>
+    <script type="text/babel">
+        ReactDOM.render(
+        <div>
+            <h2>
+                Welcome!
+            </h2>
+            <p>
+                 доброго времени суток
+            </p>
+        </div>,
+        document.querySelector("#text_container")
+        );
+        ReactDOM.render(
+        <div>
+            <img src="sun.png" width="300px"/>
+        </div>,
+        document.querySelector("#img_container")
+        );
+    </script> 
+      
+    <script src="like_button.js"></script> 
+</body>
+</html>
